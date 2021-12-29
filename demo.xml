@@ -829,10 +829,16 @@
 	</complexblocklist>
 	<segmentlist>
 
-		<segment Cmetal="0.000000e+00" Rmetal="0.000000" freq="0.33" length="4" type="unidir">
+		<segment Cmetal="0.000000e+00" Rmetal="0.000000" freq="0.5" length="4" type="unidir">
 			<mux name="0"/>
 			<sb type="pattern">1 1 1 1 1</sb>
 			<cb type="pattern">1 1 1 1</cb>
+		</segment>
+		<segment Cmetal="0.000000e+00" Rmetal="0.000000" freq="0.5" length="4" type="unidir">
+			<mux name="0"/>
+			<sb type="pattern">1 1 1 1 1</sb>
+			<cb type="pattern">1 1 1 1</cb>
+			<bend type="pattern">CC ST ST</bend>
 		</segment>
 	</segmentlist>
 </architecture>
